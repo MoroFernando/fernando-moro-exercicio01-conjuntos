@@ -113,7 +113,7 @@ def produto_cartesiano (conj_x,conj_y):
 
     return conj_resposta
 
-with open("operacoes.txt","r") as arquivo:
+with open("operacoes-1.txt","r") as arquivo:
 
     entrada_txt = arquivo.read().splitlines()
     numero_de_operacoes = entrada_txt[0]
